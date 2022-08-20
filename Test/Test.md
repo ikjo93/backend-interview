@@ -79,8 +79,14 @@
 <summary>답변 확인하기</summary>
   
 ```
-(작성 중)
-(참고자료 : http://bit.ly/30vm9Lg)
+
+assertJ는 좀 더 풍부한 문법을 제공하고 개발 도구의 자동 완성 기능과 함께 메서드 체이닝 등을 통해 직관적인(가독성 있는) 테스트 흐름을 작성할 수 있음
+
+JUnit5의 경우, assertEquals(expected, actual)과 같이 두 개의 인자를 받아서 비교 -> assertEquals()는 왼쪽이 expected인지 actual인지 혼동
+  
+assertThat()은 actual 인자 하나만 요구하고 그 뒤로 메소드 체이닝을 하므로 actual(왼쪽)과 expected(오른쪽)를 명확하게 구분
+
+참고자료 : https://steady-coding.tistory.com/351
 ```
   
 </details>
