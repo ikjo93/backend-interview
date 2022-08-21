@@ -58,7 +58,7 @@
   
 </details>
 
-#### Q. 스프링에서 Bean을 주입받는 방식별 차이 설명
+#### Q. 스프링에서 Bean을 주입(DI)받는 방식별 차이 설명
 
 <details>
 <summary>답변 확인하기</summary>
