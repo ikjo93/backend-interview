@@ -37,3 +37,15 @@ Calendar는 월 값 설계가 잘못됨
 ```
   
 </details>
+
+### Q. split과 StringTokenizer 성능차이?
+
+<details>
+<summary>답변 확인하기</summary>
+  
+```
+split은 데이터를 토큰으로 잘라낸 결과를 배열에 담아 반환하기 때문에
+데이터를 토큰으로 바로바로 잘라서 반환하는 StringTokenizer 보다 성능이 떨어질 수밖에 없다.
+```
+  
+</details>
