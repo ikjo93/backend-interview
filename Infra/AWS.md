@@ -1,14 +1,3 @@
-#### Q. EC2란?
-
-<details>
-<summary>답변 확인하기</summary>
-  
-```
-EC2는 Elastic Compute Cloud의 약어로, AWS에서 제공하는 성능, 용량 등을 유동적으로 사용할 수 있는 서버
-```
-  
-</details>
-
 #### Q. 리전이란?
 
 <details>
@@ -20,3 +9,50 @@ EC2는 Elastic Compute Cloud의 약어로, AWS에서 제공하는 성능, 용량
 ```
   
 </details>
+
+#### Q. EC2란?
+
+<details>
+<summary>답변 확인하기</summary>
+  
+```
+EC2는 Elastic Compute Cloud의 약어로, AWS에서 제공하는 성능, 용량 등을 유동적으로 사용할 수 있는 서버
+이때 EC2 서비스에 생성된 가상머신을 '인스턴스'라고 한다.
+```
+  
+</details>
+
+#### Q. AMI란?
+
+<details>
+<summary>답변 확인하기</summary>
+  
+```
+AMI는 Amazon Machine Image(아마존 머신 이미지)의 약어로, EC2 인스턴스를 시작하는 데 필요한 정보를 이미지로 만들어 둔 것이다.
+인스턴스라는 가상 머신에 운영체제 등을 설치할 수 있게 구워 넣은 이미지로 생각할 수 있다.
+예를 들어, 아마존 리눅스 1 AMI를 사용한다면, Amazon Linux 1 OS가 인스턴스에 설치되어 개발자가 사용할 수 있음을 의미한다.
+```
+  
+</details>
+
+#### Q. 아마존 리눅스 AMI를 사용한 이유는?
+
+<details>
+<summary>답변 확인하기</summary>
+  
+```
+1. 아마존이 개발하고 있는 것으로 지원받기가 쉽다
+  
+2. AWS의 각종 서비스와의 상성이 좋다
+  
+3. 아마존 독자적인 개발 리포지토리를 사용하고 있어 yum이 매우 빠르다.
+```
+  
+</details>
+
+
+
+
+
+
+
