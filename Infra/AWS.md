@@ -44,7 +44,7 @@ AMI는 Amazon Machine Image(아마존 머신 이미지)의 약어로, EC2 인스
   
 </details>
 
-#### Q. 아마존 리눅스 AMI를 사용한 이유는?
+#### Q. 아마존 리눅스 AMI를 사용하는 이유는?
 
 <details>
 <summary>답변 확인하기</summary>
@@ -76,8 +76,29 @@ AMI는 Amazon Machine Image(아마존 머신 이미지)의 약어로, EC2 인스
   
 </details>
 
+#### Q. 태그란?
 
+<details>
+<summary>답변 확인하기</summary>
+  
+```
+태그란 EC2의 이름을 붙이는 것으로, 해당 인스턴스를 표현하는 여러 이름으로 사용될 수 있다.
+  
+여러 인스턴스가 있을 경우 이를 태그별로 구분하면 거색이나 그룹 짓기가 편하다.
+```
+  
+</details>
 
+#### Q. 보안 그룹이란?
 
+<details>
+<summary>답변 확인하기</summary>
+  
+```
+보안 그룹이란 방화벽으로,
+특정 EC2에 접속을 특정 프로토콜, 특정 포트, 특정 IP 주소(사이더)로 제한할 수 있다.
+```
+  
+</details>
 
 
