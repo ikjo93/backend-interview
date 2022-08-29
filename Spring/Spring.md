@@ -127,6 +127,17 @@ URL 요청의 결과를 전달할 타입과 값을 지정하는 관리자
   
 </details>
 
+#### Q. 스프링 부트의 기본 절대경로(/) 값은?
+
+<details>
+<summary>답변 확인하기</summary>
+  
+```
+src/main/resources/static
+```
+  
+</details>
+
 
 
 
