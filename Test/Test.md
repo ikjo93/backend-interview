@@ -62,13 +62,13 @@
   
 </details>
 
-### Q. @AutoConfigureMockMvc란?
+### Q. MockMvc란?
 
 <details>
 <summary>답변 확인하기</summary>
   
 ```
-웹 API를 테스트할 때 사용 하는 것으로서 스프링 MVC 테스트의 시작점으로 perform 메서드를 통해 요청을 보낼 수 있음
+웹 API를 테스트할 때 사용 하는 것으로서 스프링 MVC 테스트의 시작점으로 perform 메서드를 통해 HTTP GET, POST 등의 요청을 보낼 수 있음
 ```
   
 </details>
