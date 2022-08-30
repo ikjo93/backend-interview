@@ -131,6 +131,17 @@ JPA Entity 클래스들이 이 어노테이션이 붙은 클래스를 상속할 
   
 </details>
 
+### Q. @EnableJpaAuditing이란?
 
+<details>
+<summary>답변 확인하기</summary>
+  
+```
+@EnableJpaAuditing은 JPA Auditing 애노테이션들을 모두 활성화할 수 있도록 해주는 애노테이션이다.
+
+@EnableJpaAuditing은 보통 Application 클래스에 같이 추가하나, 최소 하나의 @Entity 클래스가 필요해서 테스트 등의 목적으로 별도 JpaConfig로 추가하기도 한다.
+```
+  
+</details>
 
 
