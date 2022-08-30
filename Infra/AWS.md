@@ -25,7 +25,7 @@ ap-northeast-2a, ap-northeast-2b, ap-northeast-2c, ap-northeast-2d
 <summary>답변 확인하기</summary>
   
 ```
-EC2는 Elastic Compute Cloud의 약어로, AWS에서 제공하는 성능, 용량 등을 유동적으로 사용할 수 있는 서버
+EC2(Elastic Compute Cloud)는 AWS에서 제공하는 성능, 용량 등을 유동적으로 사용할 수 있는 서버
 이때 EC2 서비스에 생성된 가상머신을 '인스턴스'라고 한다.
 ```
   
@@ -101,4 +101,21 @@ AMI는 Amazon Machine Image(아마존 머신 이미지)의 약어로, EC2 인스
   
 </details>
 
+#### Q. S3란?
+
+<details>
+<summary>답변 확인하기</summary>
+  
+```
+S3(Simple Storage Service)는 AWS에서 제공하는 일종의 파일 서버로,
+이미지 파일을 비롯한 정적 파일들을 관리하거나, 배포 파일들을 관리하는 등의 기능을 지원한다.
+보통 이미지 업로등 기능 구현 시 사용된다.
+
+또한, AWS에서 제공하는 배포 서비스인 CodeDeploy 사용 시, 배포 파일(Jar 등)을 전달하기 위해 사용된다.
+CodeDeploy의 경우 저장 기능이 없어 CI 툴에서 빌드한 결과물을 S3가 받아 CodeDeploy에 전달하는 것이다.
+
+참고로 CodeDeploy에서도 빌드할 수도있지만, 빌드와 배포를 분리하기 위해 이러한 방식으로 사용된다.
+```
+  
+</details>
 
