@@ -37,9 +37,13 @@
 <summary>답변 확인하기</summary>
   
 ```
-여러 스프링 테스트 어노테이션 중 Web(Spring MVC)에 집중할 수 있는 어노테이션으로 웹에서 테스트하기 어려운 컨트롤러를 테스트 하는데 적합
-단, @WebMvcTest의 경우 @Service, @Component, @Repository 등은 사용 불가로 JPA 기능이 작동하지 않으며, @Controller, @ControllerAdvice 등 외부 연동과 관련된 부분만 활성화됨
-따라서 간단하게 테스트 하기 위해서는 @AutoConfigureMockMvc가 아닌 @WebMvcTest이 적합
+여러 스프링 테스트 어노테이션 중 Web(Spring MVC)에 집중할 수 있는 어노테이션으로 컨터롤러 등 웹 레이어를 간단하게 테스트 하는데 적합하다.
+  
+@WebMvcTest의 경우 WebSecurityConfigureAdapter, WebMvcConfigurer, @ControllerAdvice, @Controller 등 외부 연동과 관련된 부분만 읽는데,
+  
+@Service, @Repository 등의 @Component는 스캔 대상이 아니다. 이로 인해 JPA 기능이 작동하지 않으며 복잡한 테스트에는 적합하지 않다.
+
+@WebMvcTest는 일반적인 @configuration은 스캔하지 않는다.
 ```
   
 </details>
